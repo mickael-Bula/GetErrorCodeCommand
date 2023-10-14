@@ -1,0 +1,16 @@
+{
+    "name": "mika/test_code_retour_commande_symfony",
+    "autoload": {
+        "psr-4": {
+            "Migration\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "symfony/console": "^5.4",
+        "monolog/monolog": "^2.9"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}
